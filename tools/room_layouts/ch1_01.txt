@@ -1,0 +1,25 @@
+name: 1-1  WAKE
+rocks: 0
+hint1: Diver, can you hear me? Your visor is dead. Tap SPACE and listen to the walls.
+hint2: Good. HOLD SPACE for a deep pulse. It reaches further and echoes around corners.
+hint3: The exit hatch is close. Listen for its hum. Its echo shows up green.
+---
+################################
+#P.......#.....................#
+#........#.....................#
+#...1....#....#########........#
+#........#....#.......#........#
+#.............#.......#........#
+#.............#.......#####.####
+######.########.......#   #.#
+     #.#      ####.####   #.#
+     #2#         #.#      #.#
+     #.#         #.#      #.#
+     #.###########.########.#
+     #......3...............#
+     #......................#
+     ##########.#############
+              #.#
+              #.#
+              #X#
+              ###

@@ -1,0 +1,60 @@
+[gd_resource type="Theme" format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/ShareTechMono-Regular.ttf" id="1"]
+
+[sub_resource type="StyleBoxFlat" id="btn_normal"]
+content_margin_left = 18.0
+content_margin_top = 7.0
+content_margin_right = 18.0
+content_margin_bottom = 7.0
+bg_color = Color(0.02, 0.05, 0.09, 0.55)
+border_width_left = 2
+border_color = Color(0.18, 0.85, 1, 0.25)
+
+[sub_resource type="StyleBoxFlat" id="btn_focus"]
+content_margin_left = 22.0
+content_margin_top = 7.0
+content_margin_right = 18.0
+content_margin_bottom = 7.0
+bg_color = Color(0.18, 0.85, 1, 0.14)
+border_width_left = 4
+border_color = Color(0.18, 0.85, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="btn_disabled"]
+content_margin_left = 18.0
+content_margin_top = 7.0
+content_margin_right = 18.0
+content_margin_bottom = 7.0
+bg_color = Color(0.02, 0.03, 0.05, 0.4)
+border_width_left = 2
+border_color = Color(0.3, 0.4, 0.5, 0.15)
+
+[sub_resource type="StyleBoxFlat" id="panel"]
+content_margin_left = 28.0
+content_margin_top = 22.0
+content_margin_right = 28.0
+content_margin_bottom = 22.0
+bg_color = Color(0.008, 0.016, 0.03, 0.9)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.18, 0.85, 1, 0.35)
+
+[resource]
+default_font = ExtResource("1")
+default_font_size = 18
+Button/colors/font_color = Color(0.7, 0.88, 0.98, 0.85)
+Button/colors/font_disabled_color = Color(0.4, 0.5, 0.6, 0.45)
+Button/colors/font_focus_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0.18, 0.85, 1, 1)
+Button/font_sizes/font_size = 22
+Button/styles/disabled = SubResource("btn_disabled")
+Button/styles/focus = SubResource("btn_focus")
+Button/styles/hover = SubResource("btn_focus")
+Button/styles/normal = SubResource("btn_normal")
+Button/styles/pressed = SubResource("btn_focus")
+Label/colors/font_color = Color(0.75, 0.92, 1, 1)
+Panel/styles/panel = SubResource("panel")
+PanelContainer/styles/panel = SubResource("panel")

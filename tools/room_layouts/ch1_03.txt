@@ -1,0 +1,19 @@
+name: 1-3  DECOY
+rocks: 1
+hint1: It's sitting by the exit. Aim with the mouse and RIGHT CLICK to throw a rock. It will run to the sound.
+hint2: Stay out of its path while it hunts. Rubble echoes amber. Walk over it for more rocks.
+---
+###############################
+#........#..............#######
+#........#..............#..X###
+#...r....#..............#..####
+#........#.........S.......####
+#........#..............#######
+#.......................#
+#........#..............#
+#........#..............#
+##########.......########
+         #...2...#
+         #...1...#
+         #...P...#
+         #########

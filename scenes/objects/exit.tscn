@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/objects/exit.gd" id="1"]
+
+[sub_resource type="RectangleShape2D" id="shape"]
+size = Vector2(30, 30)
+
+[node name="Exit" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1")
+metadata/echo_kind = 2
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+shape = SubResource("shape")
+
+[node name="Hum" type="AudioStreamPlayer2D" parent="."]
+volume_db = -9.0
+pitch_scale = 0.6
+max_distance = 760.0
+attenuation = 1.4
+bus = &"SFX"
